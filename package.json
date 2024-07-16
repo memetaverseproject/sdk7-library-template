@@ -1,0 +1,27 @@
+{
+  "name": "mtv-project",
+  "version": "1.0.0",
+  "description": "SDK7 Template scene",
+  "scripts": {
+    "start": "sdk-commands start",
+    "dev": "tsc -p tsconfig.json --watch",
+    "build": "sdk-commands build",
+    "upgrade-sdk": "npm install --save-dev @mtvproject/sdk@latest",
+    "upgrade-sdk:next": "npm install --save-mtvproject @mtvproject/sdk@next"
+  },
+  "devDependencies": {
+    "@mtvproject/js-runtime": "latest",
+    "@mtvproject/sdk": "latest",
+    "@mtvproject/asset-packs": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=6.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "none"
+  }
+}
